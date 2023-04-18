@@ -1,3 +1,6 @@
+import Layout from './Layout';
+import NavBody from './NavBody';
+
 const mockEmployees = [
   {
     id: 0,
@@ -23,7 +26,11 @@ const Home = () => {
 
   return (
     <div>
-
+      <Layout>
+          <h1>Generation Thailand <br></br> React-Assement </h1> 
+          <NavBody />
+        </Layout>
+        
     </div>
   )
 }
