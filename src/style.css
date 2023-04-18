@@ -1,0 +1,60 @@
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: auto;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  #label1 {
+    margin-left: 13rem;
+  }
+  .input {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+
+  #inputName {
+    margin-right: 2rem;
+    width: 15rem;
+    height: 1.7rem;
+  
+  }
+  
+  #inputLastName {
+    margin: 0 2rem;
+    width: 15rem;
+    height: 1.7rem;
+    
+  }
+  
+  #inputPosition {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 15rem;
+    height: 1.7rem;
+    
+  }
+
+  #save {
+    height: 2rem;
+    width: 3rem;
+  }
+
+  
