@@ -1,13 +1,67 @@
+#bg, #own {
+background-color: gainsboro;
+padding-bottom: 5rem;
+margin: auto;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    
+}
+li {
+    padding: 2rem;
+    font-weight: bold;
+    font-size: large;
+}
+
+#head1 {
+    text-align: center;
+}
+
+#but {
+   font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+#ButUser {
+    font-weight: bold;
+    margin-top: 2rem;
+    height: 2rem;
+    width: 10rem;
+    margin-left: 28rem;
+    margin-right: 10rem;
+    border-radius: 5%;
+    border: none;
+
+}
+#ButAdmin {
+    font-weight: bold;
+    margin-top: 2rem;
+    height: 2rem;
+    width: 10rem;
+    margin: auto;
+    border-radius: 5%;
+    border: none;
+
+}
+
 table {
+    margin-top: 5rem;
     border-collapse: collapse;
     width: 60%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   th, td {
     border: 1px solid #ddd;
     padding: auto;
     text-align: center;
+    background-color: white;
   }
   
   th {
@@ -17,6 +71,8 @@ table {
 
   #label1 {
     margin-left: 13rem;
+    font-weight: bold;
+    font-size: large;
   }
   .input {
     width: 80%;
@@ -34,14 +90,18 @@ table {
     margin-right: 2rem;
     width: 15rem;
     height: 1.7rem;
-  
+    border-radius: 5%;
+    border: none;
+
   }
   
   #inputLastName {
     margin: 0 2rem;
     width: 15rem;
     height: 1.7rem;
-    
+    border-radius: 5%;
+    border: none;
+
   }
   
   #inputPosition {
@@ -49,12 +109,34 @@ table {
     margin-right: 2rem;
     width: 15rem;
     height: 1.7rem;
-    
+    border-radius: 5%;
+    border: none;
+
   }
 
   #save {
     height: 2rem;
     width: 3rem;
+    color: white;
+    background-color: blue;
+    border-radius: 15%;
+    border: none;
+
   }
 
-  
+  #own2, #own4, #own5 {
+    display: flex;
+    justify-content: center;
+  }
+
+  #own3 {
+    display: block;
+    justify-content: center;
+    margin-left: 34rem;
+  }
+
+  #delete {
+    color: red;
+    background-color: white;
+    border: none;
+  }

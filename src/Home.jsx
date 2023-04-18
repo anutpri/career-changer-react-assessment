@@ -57,15 +57,17 @@ const Home = () => {
   };
 
   return (
-    <div>
+    <div id='bg'>
       <ul>
             <li><a href={'/'}>Home</a></li>
             <li><a href={'/Owner'}>Owner</a></li>
       </ul>
       <hr/>
-        <h1>Generation Thailand <br></br> {sector} </h1> 
-        <button onClick={handleClickUser}>User Home Sector</button>
-        <button onClick={handleClickAdmin}>Admin Home Sector</button><br></br><br></br>
+        <h1 id='head1'>Generation Thailand <br></br> {sector} </h1> 
+        <div id='But'>
+        <button id='ButUser' onClick={handleClickUser}>User Home Sector</button>
+        <button id='ButAdmin' onClick={handleClickAdmin}>Admin Home Sector</button>
+        </div>
         {showAdmin ? (<Admin employees={employees} 
             handleAddUser={handleAddUser} 
             handleDeleteUser={handleDeleteUser} 
@@ -109,7 +111,7 @@ const Admin = ({ employees, handleAddUser, handleDeleteUser, setFirstName, setLa
         <td>{user.firstName}</td>
         <td>{user.lastName}</td>
         <td>{user.position}</td>
-        <td><button onClick={() => handleDeleteUser(user.id)}>Delete</button></td>
+        <td><button id='delete' onClick={() => handleDeleteUser(user.id)}>Delete</button></td>
         </tr>
         ))}
         </tbody>
@@ -146,6 +148,7 @@ const Admin = ({ employees, handleAddUser, handleDeleteUser, setFirstName, setLa
 
     )
 }
+
 
 
 
