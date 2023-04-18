@@ -149,7 +149,4 @@ const Admin = ({ employees, handleAddUser, handleDeleteUser, setFirstName, setLa
     )
 }
 
-
-
-
 export default Home
